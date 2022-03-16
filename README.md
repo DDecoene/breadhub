@@ -5,7 +5,7 @@ A decentralized app where you can create, share and earn from your bread baking 
 
 Click the button below to start a new development environment:
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/gitpod-io/template-typescript-react)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/DDecoene/breadhub)
 
 ## Contribute to this app
 
