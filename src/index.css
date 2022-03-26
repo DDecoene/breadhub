@@ -1,13 +1,70 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+  --primary-text-color: #fff8ec;
+  --clr-primary: #fff8ec;
+  --clr-accent: #aa8b66;
+  --clr-background: #402e32;
+  --clr-logo: #ffab00;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  background-color: var(--clr-background);
+  color: var(--primary-text-color);
+  font-family: 'Raleway', sans-serif;
+}
+
+header {
+  height: 15vh;
+}
+
+main {
+  display: flex;
+  height: 100%;
+}
+
+nav {
+  flex: 1;
+}
+
+article {
+  flex: 6;
+}
+
+aside {
+  flex: 1;
+}
+
+footer {
+  height: 20vh;
+}
+
+header,
+footer,
+article,
+nav,
+aside {
+  padding: 1em;
+}
+
+.logo {
+  height: 4rem;
+  filter: invert(59%) sepia(96%) saturate(1211%) hue-rotate(2deg)
+    brightness(104%) contrast(106%);
+  margin: 0.5em;
+  vertical-align: top;
+}
+
+.logo-text {
+  font-family: "Waterfall", cursive;
+  font-size: 4rem;
+  color: var(--clr-logo);
+  margin-left: 0.5em;
 }
